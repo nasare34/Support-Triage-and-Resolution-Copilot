@@ -39,7 +39,7 @@ uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `ANTHROPIC_API_KEY` | Yes | — | Anthropic API key |
+| `ANTHROPIC_API_KEY or GROK API key` | Yes | — | Anthropic API key OR GROK API Key |
 | `PORT` | No | `8000` | API server port |
 | `ARTIFACTS_DIR` | No | `./artifacts` | Path to trained model artifacts |
 | `KB_DIR` | No | `./kb_docs` | Path to KB markdown documents |
