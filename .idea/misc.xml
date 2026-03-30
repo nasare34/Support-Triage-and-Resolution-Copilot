@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Black">
-    <option name="sdkName" value="support_copilot" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="support_copilot" project-jdk-type="Python SDK" />
-</project>
