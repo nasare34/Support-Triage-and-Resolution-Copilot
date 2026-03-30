@@ -21,6 +21,14 @@ docker compose up --build
 API available at: http://localhost:8000
 Docs at: http://localhost:8000/docs
 
+I didn't build any homepage, hence the reason for seeing blank page or {"detail":"Not Found"}. So just use the http://localhost:8000/docs or http://0.0.0.0:8000/docs
+
+The four main URLs are:
+Main URL: http://localhost:8000/docs
+GET  http://0.0.0.0:8000/health
+POST http://0.0.0.0:8000/triage
+POST http://0.0.0.0:8000/answer
+
 ### Option B — Local Python
 ```bash
 python -m venv .venv && source .venv/bin/activate
