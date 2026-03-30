@@ -20,14 +20,6 @@ docker compose up --build
 
 API available at: http://localhost:8000
 Docs at: http://localhost:8000/docs
-I didn't build any homepage, hence the reason for seeing blank page or {"detail":"Not Found"}. 
-So just use the http://localhost:8000/docs or http://0.0.0.0:8000/docs
-
-The four main URLs are:
-Main URL: http://localhost:8000/docs
-GET  http://0.0.0.0:8000/health
-POST http://0.0.0.0:8000/triage
-POST http://0.0.0.0:8000/answer
 
 ### Option B — Local Python
 ```bash
@@ -47,7 +39,7 @@ uvicorn src.api:app --host 0.0.0.0 --port 8000 --reload
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `ANTHROPIC_API_KEY` | Yes | — | Anthropic API |
+| `ANTHROPIC_API_KEY` | Yes | — | Anthropic API key |
 | `PORT` | No | `8000` | API server port |
 | `ARTIFACTS_DIR` | No | `./artifacts` | Path to trained model artifacts |
 | `KB_DIR` | No | `./kb_docs` | Path to KB markdown documents |
