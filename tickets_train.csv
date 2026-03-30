@@ -1,0 +1,281 @@
+ticket_id,subject,body,category_label,priority_label
+T00001,Requesting SOC 2 report,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P1
+T00002,Filter settings not saving,"When opening the ticket view, the UI crashes with error 'Token expired'. Browser: Safari 17.",Bugs & Errors,P1
+T00003,Roadmap question: AI summary per ticket,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00004,How to download audit logs?,How do we download audit logs for the last 90 days for compliance?,Data Export & Reporting,P1
+T00005,Requesting SOC 2 report,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?,Security & Compliance,P0
+T00006,Charged twice for my subscription,We'd like a refund for we cancelled but were charged. The invoice number is INV198907.,Billing & Payments,P1
+T00007,App is very slow today,We're seeing latency spikes in EU-West starting 2026-01-06. Any mitigations?,Performance & Reliability,P1
+T00008,Charged twice for my subscription,"Hi team, our October invoice shows an incorrect VAT rate. We are on the Starter plan. Can you help correct it?",Billing & Payments,P1
+T00009,New user cannot access workspace,Password reset emails are not arriving for it@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00010,Charged twice for my subscription,"Hi team, our June invoice shows a missing line item discount. We are on the Pro plan. Can you help correct it?",Billing & Payments,P1
+T00011,Account locked after failed attempts,Password reset emails are not arriving for admin@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00012,Error when uploading attachment,"Mobile app crashes on launch after the latest update. Device: Pixel 7, OS: Android 14.",Bugs & Errors,P2
+T00013,Error when uploading attachment,"When opening the ticket view, the UI crashes with error 'Permission denied'. Browser: Chrome 121.",Bugs & Errors,P2
+T00014,Filter settings not saving,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.,Bugs & Errors,P1
+T00015,App is very slow today,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00016,Slack integration not posting messages,Zapier trigger 'New Ticket' stopped firing since 2026-01-09. We reconnected but still nothing.,Integrations & API,P2
+T00017,Invoice shows incorrect VAT for May,Can you send a copy of invoice INV831059 to ops@acme.com?,Billing & Payments,P2
+T00018,Enhancement: custom SLAs per team,Enhancement: custom SLAs per team and escalation rules based on priority.,Feature Request,P2
+T00019,Getting intermittent 500 errors,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00020,Need help creating API token,Need guidance on creating an API token with least privileges for posting ticket alerts to Slack.,Integrations & API,P1
+T00021,Requesting SOC 2 report,We need to process a GDPR deletion request for user admin@acme.com. What's the procedure/timeline?,Security & Compliance,P2
+T00022,App is very slow today,Search is timing out for queries like 'API token scope'. We have about 80000 tickets.,Performance & Reliability,P2
+T00023,Requesting SOC 2 report,We need to process a GDPR deletion request for user admin@acme.com. What's the procedure/timeline?,Security & Compliance,P2
+T00024,Slack integration not posting messages,Zapier trigger 'New Ticket' stopped firing since 2026-01-07. We reconnected but still nothing.,Integrations & API,P2
+T00025,Slack integration not posting messages,Zapier trigger 'New Ticket' stopped firing since 2026-01-07. We reconnected but still nothing.,Integrations & API,P2
+T00026,Need scheduled exports to S3,Export runs for ~10 minutes and then times out. Dataset size is about 2000 rows.,Data Export & Reporting,P2
+T00027,Can you add SSO for Azure AD?,Feature request: allow bulk tagging of tickets from the list view to speed up triage.,Feature Request,P2
+T00028,Enhancement: custom SLAs per team,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations.",Feature Request,P2
+T00029,How to configure IP allowlist?,We need to process a GDPR deletion request for user ops@acme.com. What's the procedure/timeline?,Security & Compliance,P2
+T00030,Can you send an invoice copy?,We'd like a refund for we cancelled but were charged. The invoice number is INV749641.,Billing & Payments,P2
+T00031,Change billing email for account,We want to upgrade from Enterprise to Enterprise. How is proration handled?,Account & Subscription,P2
+T00032,SSO login loop with Okta,"After enabling MFA, multiple users are stuck at the verification step. We use Google Workspace. Any known issues?",Authentication & Access,P2
+T00033,Mobile app crashes on launch,"When opening the ticket view, the UI crashes with error 'Signature mismatch'. Browser: Firefox 122.",Bugs & Errors,P1
+T00034,Slack integration not posting messages,We're getting 429 rate limits after only a few requests/min. Our use case is creating tickets from our app.,Integrations & API,P1
+T00035,Payment failed but card was charged,We noticed we were charged twice on 2026-01-06. Transaction IDs: TX386544 and TX836833. Please investigate.,Billing & Payments,P1
+T00036,UI crashes when opening ticket view,"When opening the ticket view, the UI crashes with error 'Signature mismatch'. Browser: Firefox 122.",Bugs & Errors,P1
+T00037,Reports dashboard not updating,How do we download audit logs for the last 30 days for compliance?,Data Export & Reporting,P2
+T00038,Error when uploading attachment,Uploading an attachment fails with 'Token expired'. File type: csv. Size: 80MB.,Bugs & Errors,P2
+T00039,CSV export missing columns,Export runs for ~10 minutes and then times out. Dataset size is about 80000 rows.,Data Export & Reporting,P2
+T00040,Latency spike in EU region,Search is timing out for queries like 'API token scope'. We have about 80000 tickets.,Performance & Reliability,P2
+T00041,Payment failed but card was charged,We noticed we were charged twice on 2026-01-05. Transaction IDs: TX180913 and TX410160. Please investigate.,Billing & Payments,P1
+T00042,Enhancement: custom SLAs per team,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00043,Need scheduled exports to S3,Export runs for ~20 minutes and then times out. Dataset size is about 2000 rows.,Data Export & Reporting,P2
+T00044,Requesting SOC 2 report,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?,Security & Compliance,P0
+T00045,Password reset email not arriving,Password reset emails are not arriving for it@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P1
+T00046,Account locked after failed attempts,New user invited but gets 'access denied' when joining workspace acme-emea.,Authentication & Access,P1
+T00047,Possible security incident report,We need to process a GDPR deletion request for user ops@acme.com. What's the procedure/timeline?,Security & Compliance,P0
+T00048,Would love a dark mode,Enhancement: custom SLAs per team and escalation rules based on priority.,Feature Request,P2
+T00049,Filter settings not saving,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) set filter 2) refresh page 3) filter resets.,Bugs & Errors,P1
+T00050,How to configure IP allowlist?,We need to process a GDPR deletion request for user finance@acme.com. What's the procedure/timeline?,Security & Compliance,P1
+T00051,Export takes forever and times out,We need scheduled exports (daily) to an S3 bucket. Is this supported?,Data Export & Reporting,P2
+T00052,Webhook delivery failing with 401,Zapier trigger 'New Ticket' stopped firing since 2026-01-02. We reconnected but still nothing.,Integrations & API,P1
+T00053,Payment failed but card was charged,Can you send a copy of invoice INV644559 to admin@acme.com?,Billing & Payments,P1
+T00054,Questions about encryption at rest,How do we configure IP allowlisting for workspace acme-support? Any limitations?,Security & Compliance,P1
+T00055,New user cannot access workspace,New user invited but gets 'access denied' when joining workspace acme-support.,Authentication & Access,P2
+T00056,Change billing email for account,Please add 50 seats and confirm the updated billing amount.,Account & Subscription,P2
+T00057,Can you send an invoice copy?,Can you send a copy of invoice INV295361 to ops@acme.com?,Billing & Payments,P1
+T00058,Slack integration not posting messages,We're getting 429 rate limits after only a few requests/min. Our use case is posting ticket alerts to Slack.,Integrations & API,P1
+T00059,Questions about encryption at rest,How do we configure IP allowlisting for workspace acme-hq? Any limitations?,Security & Compliance,P1
+T00060,App is very slow today,Intermittent 500 errors on /api/tickets. Correlation ID: CID401036. Happens since 2026-01-22.,Performance & Reliability,P1
+T00061,Workspace ownership transfer,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P2
+T00062,Reports dashboard not updating,Dashboard shows stale numbers since 2026-01-19. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00063,API returns 429 rate limit too quickly,Our webhook endpoint started failing. We receive 401 responses. Signature header: SIG859782. Any changes recently?,Integrations & API,P1
+T00064,Roadmap question: AI summary per ticket,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.,Feature Request,P2
+T00065,New user cannot access workspace,Account is locked after too many attempts. Need urgent unlock for ops@acme.com.,Authentication & Access,P1
+T00066,Need to upgrade our plan,We need to transfer workspace ownership from alice@acme.com to bob@acme.com.,Account & Subscription,P2
+T00067,App is very slow today,Intermittent 500 errors on /api/tickets. Correlation ID: CID715551. Happens since 2026-01-17.,Performance & Reliability,P1
+T00068,Error when uploading attachment,"When opening the ticket view, the UI crashes with error 'Invalid SAML response'. Browser: Safari 17.",Bugs & Errors,P2
+T00069,Possible security incident report,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P0
+T00070,Add 10 more seats to our workspace,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P1
+T00071,Can you add SSO for Azure AD?,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00072,UI crashes when opening ticket view,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.,Bugs & Errors,P2
+T00073,Search requests timing out,The app is slow across multiple pages. Average load time is 3s. Region: US-East.,Performance & Reliability,P1
+T00074,Reports dashboard not updating,Export runs for ~20 minutes and then times out. Dataset size is about 2000 rows.,Data Export & Reporting,P2
+T00075,Need GDPR data deletion,Please share your latest SOC 2 report and security whitepaper for vendor review.,Security & Compliance,P2
+T00076,Service appears down for our team,Intermittent 500 errors on /api/tickets. Correlation ID: CID562806. Happens since 2026-01-02.,Performance & Reliability,P0
+T00077,CSV export missing columns,Dashboard shows stale numbers since 2026-01-20. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00078,Mobile app crashes on launch,Uploading an attachment fails with 'Unexpected null reference'. File type: zip. Size: 25MB.,Bugs & Errors,P2
+T00079,Search requests timing out,The app is slow across multiple pages. Average load time is 8s. Region: AP-South.,Performance & Reliability,P1
+T00080,Getting intermittent 500 errors,Intermittent 500 errors on /api/tickets. Correlation ID: CID501312. Happens since 2026-01-23.,Performance & Reliability,P1
+T00081,Roadmap question: AI summary per ticket,Enhancement: custom SLAs per team and escalation rules based on priority.,Feature Request,P2
+T00082,Requesting SOC 2 report,Please share your latest SOC 2 report and security whitepaper for vendor review.,Security & Compliance,P2
+T00083,SSO login loop with Okta,Password reset emails are not arriving for admin@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00084,Need a refund for last month,Can you send a copy of invoice INV274987 to ops@acme.com?,Billing & Payments,P2
+T00085,Cancel subscription and export data,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P1
+T00086,CSV export missing columns,"CSV export is missing columns: tags, updated_at. We need them for our weekly reporting.",Data Export & Reporting,P2
+T00087,Need scheduled exports to S3,Export runs for ~10 minutes and then times out. Dataset size is about 250000 rows.,Data Export & Reporting,P1
+T00088,Cancel subscription and export data,We need to transfer workspace ownership from alice@acme.com to itadmin@acme.com.,Account & Subscription,P1
+T00089,Feature request: bulk tag tickets,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations.",Feature Request,P2
+T00090,Would love a dark mode,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations.",Feature Request,P2
+T00091,Feature request: bulk tag tickets,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00092,Export takes forever and times out,"CSV export is missing columns: tags, updated_at. We need them for our weekly reporting.",Data Export & Reporting,P1
+T00093,Error when uploading attachment,Email notifications are not being delivered to ops@acme.com. SMTP logs show Invalid SAML response.,Bugs & Errors,P1
+T00094,Feature request: bulk tag tickets,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.,Feature Request,P2
+T00095,Need scheduled exports to S3,How do we download audit logs for the last 30 days for compliance?,Data Export & Reporting,P2
+T00096,Need to upgrade our plan,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P1
+T00097,Need to upgrade our plan,We need to update billing email to it@acme.com and ensure invoices go there.,Account & Subscription,P2
+T00098,Error when uploading attachment,"Mobile app crashes on launch after the latest update. Device: Pixel 7, OS: Android 14.",Bugs & Errors,P2
+T00099,Latency spike in EU region,Intermittent 500 errors on /api/tickets. Correlation ID: CID597635. Happens since 2026-01-15.,Performance & Reliability,P1
+T00100,New user cannot access workspace,SSO keeps redirecting back to the login page. We configured SAML with Google Workspace. Error: Invalid SAML response.,Authentication & Access,P1
+T00101,Invoice shows incorrect VAT for June,"Payment failed in the UI, but my card shows a pending charge for $249. What should we do?",Billing & Payments,P1
+T00102,Filter settings not saving,Email notifications are not being delivered to it@acme.com. SMTP logs show Unexpected null reference.,Bugs & Errors,P1
+T00103,Account locked after failed attempts,Account is locked after too many attempts. Need urgent unlock for finance@acme.com.,Authentication & Access,P1
+T00104,Roadmap question: AI summary per ticket,Feature request: allow bulk tagging of tickets from the list view to speed up triage.,Feature Request,P2
+T00105,Workspace ownership transfer,Please add 10 seats and confirm the updated billing amount.,Account & Subscription,P2
+T00106,Can you send an invoice copy?,"Payment failed in the UI, but my card shows a pending charge for $249. What should we do?",Billing & Payments,P1
+T00107,Would love a dark mode,Enhancement: custom SLAs per team and escalation rules based on priority.,Feature Request,P2
+T00108,Change billing email for account,Please add 25 seats and confirm the updated billing amount.,Account & Subscription,P1
+T00109,Change billing email for account,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P2
+T00110,Can you send an invoice copy?,"Hi team, our October invoice shows a missing line item discount. We are on the Business plan. Can you help correct it?",Billing & Payments,P1
+T00111,Change billing email for account,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P2
+T00112,How to download audit logs?,Dashboard shows stale numbers since 2026-01-26. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00113,App is very slow today,Intermittent 500 errors on /api/tickets. Correlation ID: CID778553. Happens since 2026-01-25.,Performance & Reliability,P1
+T00114,Payment failed but card was charged,Can you send a copy of invoice INV282237 to finance@acme.com?,Billing & Payments,P1
+T00115,Notifications not sending,Uploading an attachment fails with 'Unexpected null reference'. File type: csv. Size: 25MB.,Bugs & Errors,P2
+T00116,Notifications not sending,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) set filter 2) refresh page 3) filter resets.,Bugs & Errors,P1
+T00117,Webhook delivery failing with 401,We're getting 429 rate limits after only a few requests/min. Our use case is creating tickets from our app.,Integrations & API,P1
+T00118,Account locked after failed attempts,Password reset emails are not arriving for admin@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00119,API returns 429 rate limit too quickly,Need guidance on creating an API token with least privileges for posting ticket alerts to Slack.,Integrations & API,P1
+T00120,Search requests timing out,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00121,CSV export missing columns,Dashboard shows stale numbers since 2026-01-06. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00122,Possible security incident report,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?,Security & Compliance,P0
+T00123,SSO login loop with Okta,Account is locked after too many attempts. Need urgent unlock for finance@acme.com.,Authentication & Access,P1
+T00124,Cancel subscription and export data,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P2
+T00125,Filter settings not saving,"Mobile app crashes on launch after the latest update. Device: Samsung S23, OS: Android 14.",Bugs & Errors,P2
+T00126,How to download audit logs?,Dashboard shows stale numbers since 2026-01-19. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00127,Possible security incident report,How do we configure IP allowlisting for workspace acme-support? Any limitations?,Security & Compliance,P0
+T00128,Need to upgrade our plan,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P2
+T00129,Zapier trigger stopped working,We're getting 429 rate limits after only a few requests/min. Our use case is creating tickets from our app.,Integrations & API,P1
+T00130,SSO login loop with Okta,New user invited but gets 'access denied' when joining workspace acme-emea.,Authentication & Access,P2
+T00131,Change billing email for account,We want to upgrade from Pro to Enterprise. How is proration handled?,Account & Subscription,P2
+T00132,Filter settings not saving,"Mobile app crashes on launch after the latest update. Device: Pixel 7, OS: iOS 17.",Bugs & Errors,P1
+T00133,Filter settings not saving,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.,Bugs & Errors,P2
+T00134,Notifications not sending,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) set filter 2) refresh page 3) filter resets.,Bugs & Errors,P2
+T00135,Can't login after enabling MFA,Password reset emails are not arriving for admin@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P1
+T00136,Service appears down for our team,Search is timing out for queries like 'export audit logs'. We have about 80000 tickets.,Performance & Reliability,P0
+T00137,How to configure IP allowlist?,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P1
+T00138,How to download audit logs?,Dashboard shows stale numbers since 2026-01-25. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00139,Account locked after failed attempts,"After enabling MFA, multiple users are stuck at the verification step. We use Azure AD. Any known issues?",Authentication & Access,P2
+T00140,Reports dashboard not updating,"CSV export is missing columns: priority, assignee. We need them for our weekly reporting.",Data Export & Reporting,P1
+T00141,Workspace ownership transfer,We need to transfer workspace ownership from opslead@acme.com to itadmin@acme.com.,Account & Subscription,P2
+T00142,Questions about encryption at rest,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?,Security & Compliance,P0
+T00143,Latency spike in EU region,Search is timing out for queries like 'refund policy'. We have about 2000 tickets.,Performance & Reliability,P2
+T00144,Latency spike in EU region,Intermittent 500 errors on /api/tickets. Correlation ID: CID836989. Happens since 2026-01-05.,Performance & Reliability,P1
+T00145,Feature request: bulk tag tickets,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations.",Feature Request,P2
+T00146,Getting intermittent 500 errors,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00147,Password reset email not arriving,"After enabling MFA, multiple users are stuck at the verification step. We use Azure AD. Any known issues?",Authentication & Access,P1
+T00148,Need to upgrade our plan,We need to update billing email to finance@acme.com and ensure invoices go there.,Account & Subscription,P2
+T00149,Would love a dark mode,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00150,Need help creating API token,Our webhook endpoint started failing. We receive 401 responses. Signature header: SIG237935. Any changes recently?,Integrations & API,P2
+T00151,SSO login loop with Okta,Account is locked after too many attempts. Need urgent unlock for admin@acme.com.,Authentication & Access,P1
+T00152,Account locked after failed attempts,Password reset emails are not arriving for admin@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P1
+T00153,Cancel subscription and export data,We need to transfer workspace ownership from alice@acme.com to itadmin@acme.com.,Account & Subscription,P2
+T00154,Need a refund for last month,We noticed we were charged twice on 2026-01-15. Transaction IDs: TX183262 and TX730421. Please investigate.,Billing & Payments,P1
+T00155,Roadmap question: AI summary per ticket,Feature request: allow bulk tagging of tickets from the list view to speed up triage.,Feature Request,P2
+T00156,Possible security incident report,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?,Security & Compliance,P0
+T00157,How to download audit logs?,"CSV export is missing columns: priority, assignee. We need them for our weekly reporting.",Data Export & Reporting,P1
+T00158,Payment failed but card was charged,"Payment failed in the UI, but my card shows a pending charge for $1,200. What should we do?",Billing & Payments,P1
+T00159,How to download audit logs?,"CSV export is missing columns: customer_id, region. We need them for our weekly reporting.",Data Export & Reporting,P1
+T00160,Would love a dark mode,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.,Feature Request,P2
+T00161,Getting intermittent 500 errors,We're seeing latency spikes in EU-West starting 2026-01-26. Any mitigations?,Performance & Reliability,P1
+T00162,Enhancement: custom SLAs per team,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00163,Error when uploading attachment,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.,Bugs & Errors,P2
+T00164,Reports dashboard not updating,Dashboard shows stale numbers since 2026-01-27. Is there an incident or delayed pipeline?,Data Export & Reporting,P1
+T00165,How to configure IP allowlist?,We need to process a GDPR deletion request for user finance@acme.com. What's the procedure/timeline?,Security & Compliance,P2
+T00166,Roadmap question: AI summary per ticket,Would love a dark mode for agents who work night shifts. Any timeline?,Feature Request,P2
+T00167,How to configure IP allowlist?,We need to process a GDPR deletion request for user finance@acme.com. What's the procedure/timeline?,Security & Compliance,P2
+T00168,Need help creating API token,Zapier trigger 'New Ticket' stopped firing since 2026-01-05. We reconnected but still nothing.,Integrations & API,P1
+T00169,Invoice shows incorrect VAT for February,"Hi team, our July invoice shows an incorrect VAT rate. We are on the Starter plan. Can you help correct it?",Billing & Payments,P2
+T00170,Cancel subscription and export data,Please add 50 seats and confirm the updated billing amount.,Account & Subscription,P1
+T00171,App is very slow today,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00172,Can't login after enabling MFA,SSO keeps redirecting back to the login page. We configured SAML with Okta. Error: Token expired.,Authentication & Access,P2
+T00173,Change billing email for account,We need to transfer workspace ownership from opslead@acme.com to itadmin@acme.com.,Account & Subscription,P1
+T00174,Workspace ownership transfer,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P1
+T00175,How to configure IP allowlist?,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?,Security & Compliance,P0
+T00176,Cancel subscription and export data,We need to update billing email to finance@acme.com and ensure invoices go there.,Account & Subscription,P2
+T00177,Service appears down for our team,Intermittent 500 errors on /api/tickets. Correlation ID: CID538539. Happens since 2026-01-05.,Performance & Reliability,P0
+T00178,How to download audit logs?,Dashboard shows stale numbers since 2026-01-24. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00179,Password reset email not arriving,"After enabling MFA, multiple users are stuck at the verification step. We use Google Workspace. Any known issues?",Authentication & Access,P2
+T00180,Payment failed but card was charged,Can you send a copy of invoice INV451199 to it@acme.com?,Billing & Payments,P1
+T00181,Workspace ownership transfer,We need to update billing email to finance@acme.com and ensure invoices go there.,Account & Subscription,P2
+T00182,New user cannot access workspace,Password reset emails are not arriving for it@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00183,Possible security incident report,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P0
+T00184,Can you add SSO for Azure AD?,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations.",Feature Request,P2
+T00185,CSV export missing columns,We need scheduled exports (daily) to an S3 bucket. Is this supported?,Data Export & Reporting,P2
+T00186,Error when uploading attachment,Uploading an attachment fails with 'Invalid SAML response'. File type: csv. Size: 2MB.,Bugs & Errors,P2
+T00187,Mobile app crashes on launch,"When opening the ticket view, the UI crashes with error 'Token expired'. Browser: Safari 17.",Bugs & Errors,P2
+T00188,Need to upgrade our plan,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P2
+T00189,Invoice shows incorrect VAT for April,We noticed we were charged twice on 2026-01-07. Transaction IDs: TX236543 and TX182423. Please investigate.,Billing & Payments,P1
+T00190,Password reset email not arriving,"After enabling MFA, multiple users are stuck at the verification step. We use Okta. Any known issues?",Authentication & Access,P1
+T00191,Can't login after enabling MFA,"After enabling MFA, multiple users are stuck at the verification step. We use Okta. Any known issues?",Authentication & Access,P2
+T00192,App is very slow today,Intermittent 500 errors on /api/tickets. Correlation ID: CID732464. Happens since 2026-01-12.,Performance & Reliability,P1
+T00193,SSO login loop with Okta,"After enabling MFA, multiple users are stuck at the verification step. We use Okta. Any known issues?",Authentication & Access,P1
+T00194,Password reset email not arriving,SSO keeps redirecting back to the login page. We configured SAML with Azure AD. Error: Signature mismatch.,Authentication & Access,P1
+T00195,Need scheduled exports to S3,We need scheduled exports (daily) to an S3 bucket. Is this supported?,Data Export & Reporting,P1
+T00196,Cancel subscription and export data,We need to transfer workspace ownership from alice@acme.com to bob@acme.com.,Account & Subscription,P2
+T00197,Need help creating API token,Need guidance on creating an API token with least privileges for posting ticket alerts to Slack.,Integrations & API,P1
+T00198,Can't login after enabling MFA,Password reset emails are not arriving for ops@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00199,Can you send an invoice copy?,"Payment failed in the UI, but my card shows a pending charge for $249. What should we do?",Billing & Payments,P1
+T00200,Add 10 more seats to our workspace,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P2
+T00201,How to configure IP allowlist?,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P2
+T00202,Export takes forever and times out,Dashboard shows stale numbers since 2026-01-07. Is there an incident or delayed pipeline?,Data Export & Reporting,P1
+T00203,Filter settings not saving,Email notifications are not being delivered to it@acme.com. SMTP logs show Permission denied.,Bugs & Errors,P1
+T00204,Password reset email not arriving,New user invited but gets 'access denied' when joining workspace acme-hq.,Authentication & Access,P2
+T00205,Slack integration not posting messages,Slack integration stopped posting to channel #support-alerts. App shows connected but no messages.,Integrations & API,P1
+T00206,Payment failed but card was charged,We noticed we were charged twice on 2026-01-17. Transaction IDs: TX904098 and TX698514. Please investigate.,Billing & Payments,P1
+T00207,Need help creating API token,We're getting 429 rate limits after only a few requests/min. Our use case is syncing tickets to our data warehouse.,Integrations & API,P1
+T00208,Service appears down for our team,Search is timing out for queries like 'API token scope'. We have about 250000 tickets.,Performance & Reliability,P0
+T00209,How to configure IP allowlist?,Please share your latest SOC 2 report and security whitepaper for vendor review.,Security & Compliance,P1
+T00210,Would love a dark mode,Feature request: allow bulk tagging of tickets from the list view to speed up triage.,Feature Request,P2
+T00211,Change billing email for account,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.,Account & Subscription,P2
+T00212,Service appears down for our team,Search is timing out for queries like 'export audit logs'. We have about 15000 tickets.,Performance & Reliability,P0
+T00213,Error when uploading attachment,Uploading an attachment fails with 'Unexpected null reference'. File type: png. Size: 2MB.,Bugs & Errors,P1
+T00214,Need scheduled exports to S3,How do we download audit logs for the last 7 days for compliance?,Data Export & Reporting,P2
+T00215,Need a refund for last month,"Payment failed in the UI, but my card shows a pending charge for $499. What should we do?",Billing & Payments,P1
+T00216,CSV export missing columns,Dashboard shows stale numbers since 2026-01-22. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00217,Error when uploading attachment,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.,Bugs & Errors,P1
+T00218,Workspace ownership transfer,Please add 50 seats and confirm the updated billing amount.,Account & Subscription,P2
+T00219,SSO login loop with Okta,Account is locked after too many attempts. Need urgent unlock for finance@acme.com.,Authentication & Access,P1
+T00220,Account locked after failed attempts,"After enabling MFA, multiple users are stuck at the verification step. We use Azure AD. Any known issues?",Authentication & Access,P2
+T00221,Add 10 more seats to our workspace,We want to upgrade from Business to Business. How is proration handled?,Account & Subscription,P1
+T00222,Can you send an invoice copy?,We'd like a refund for we cancelled but were charged. The invoice number is INV261719.,Billing & Payments,P2
+T00223,App is very slow today,The app is slow across multiple pages. Average load time is 5s. Region: US-East.,Performance & Reliability,P1
+T00224,Enhancement: custom SLAs per team,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations.",Feature Request,P2
+T00225,Charged twice for my subscription,"Hi team, our October invoice shows the wrong billing address. We are on the Starter plan. Can you help correct it?",Billing & Payments,P1
+T00226,Cancel subscription and export data,We want to upgrade from Business to Business. How is proration handled?,Account & Subscription,P2
+T00227,Can you send an invoice copy?,"Payment failed in the UI, but my card shows a pending charge for $99. What should we do?",Billing & Payments,P1
+T00228,Enhancement: custom SLAs per team,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.,Feature Request,P2
+T00229,UI crashes when opening ticket view,"When opening the ticket view, the UI crashes with error 'Invalid SAML response'. Browser: Safari 17.",Bugs & Errors,P2
+T00230,Charged twice for my subscription,We noticed we were charged twice on 2026-01-16. Transaction IDs: TX859822 and TX751009. Please investigate.,Billing & Payments,P1
+T00231,Reports dashboard not updating,Dashboard shows stale numbers since 2026-01-20. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00232,Invoice shows incorrect VAT for September,"Hi team, our March invoice shows the wrong billing address. We are on the Enterprise plan. Can you help correct it?",Billing & Payments,P2
+T00233,Roadmap question: AI summary per ticket,Feature request: allow bulk tagging of tickets from the list view to speed up triage.,Feature Request,P2
+T00234,Latency spike in EU region,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00235,Getting intermittent 500 errors,The app is slow across multiple pages. Average load time is 8s. Region: AP-South.,Performance & Reliability,P1
+T00236,Password reset email not arriving,Password reset emails are not arriving for ops@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00237,Enhancement: custom SLAs per team,Enhancement: custom SLAs per team and escalation rules based on priority.,Feature Request,P2
+T00238,Getting intermittent 500 errors,The app is slow across multiple pages. Average load time is 3s. Region: EU-West.,Performance & Reliability,P1
+T00239,App is very slow today,Intermittent 500 errors on /api/tickets. Correlation ID: CID585171. Happens since 2026-01-06.,Performance & Reliability,P1
+T00240,Need help creating API token,Zapier trigger 'New Ticket' stopped firing since 2026-01-23. We reconnected but still nothing.,Integrations & API,P2
+T00241,Change billing email for account,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P1
+T00242,Reports dashboard not updating,"CSV export is missing columns: priority, assignee. We need them for our weekly reporting.",Data Export & Reporting,P1
+T00243,Search requests timing out,We're seeing latency spikes in AP-South starting 2026-01-04. Any mitigations?,Performance & Reliability,P2
+T00244,Possible security incident report,We need to process a GDPR deletion request for user it@acme.com. What's the procedure/timeline?,Security & Compliance,P0
+T00245,Add 10 more seats to our workspace,We need to transfer workspace ownership from opslead@acme.com to itadmin@acme.com.,Account & Subscription,P1
+T00246,Can you add SSO for Azure AD?,Feature request: allow bulk tagging of tickets from the list view to speed up triage.,Feature Request,P2
+T00247,Mobile app crashes on launch,Email notifications are not being delivered to admin@acme.com. SMTP logs show Unexpected null reference.,Bugs & Errors,P2
+T00248,Need GDPR data deletion,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P2
+T00249,Account locked after failed attempts,Password reset emails are not arriving for ops@acme.com. We checked spam. Could you resend or advise?,Authentication & Access,P2
+T00250,SSO login loop with Okta,"After enabling MFA, multiple users are stuck at the verification step. We use Google Workspace. Any known issues?",Authentication & Access,P2
+T00251,UI crashes when opening ticket view,Uploading an attachment fails with 'Token expired'. File type: zip. Size: 8MB.,Bugs & Errors,P2
+T00252,Need to upgrade our plan,We want to cancel at end of term and export all data. Steps?,Account & Subscription,P2
+T00253,API returns 429 rate limit too quickly,Our webhook endpoint started failing. We receive 401 responses. Signature header: SIG242350. Any changes recently?,Integrations & API,P1
+T00254,Webhook delivery failing with 401,Slack integration stopped posting to channel #incidents. App shows connected but no messages.,Integrations & API,P2
+T00255,Latency spike in EU region,Intermittent 500 errors on /api/tickets. Correlation ID: CID949785. Happens since 2026-01-17.,Performance & Reliability,P1
+T00256,Search requests timing out,Service appears down for our entire team (multiple networks). Status page? We need ETA.,Performance & Reliability,P0
+T00257,Feature request: bulk tag tickets,Enhancement: custom SLAs per team and escalation rules based on priority.,Feature Request,P2
+T00258,How to configure IP allowlist?,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P1
+T00259,SSO login loop with Okta,SSO keeps redirecting back to the login page. We configured SAML with Google Workspace. Error: Invalid SAML response.,Authentication & Access,P2
+T00260,Need GDPR data deletion,Can you confirm encryption at rest and in transit? Any details on key management?,Security & Compliance,P1
+T00261,Latency spike in EU region,The app is slow across multiple pages. Average load time is 8s. Region: AP-South.,Performance & Reliability,P2
+T00262,Can't login after enabling MFA,New user invited but gets 'access denied' when joining workspace acme-support.,Authentication & Access,P2
+T00263,Charged twice for my subscription,We noticed we were charged twice on 2026-01-26. Transaction IDs: TX111214 and TX544579. Please investigate.,Billing & Payments,P1
+T00264,Need scheduled exports to S3,We need scheduled exports (daily) to an S3 bucket. Is this supported?,Data Export & Reporting,P1
+T00265,App is very slow today,We're seeing latency spikes in US-East starting 2026-01-05. Any mitigations?,Performance & Reliability,P1
+T00266,Need scheduled exports to S3,Dashboard shows stale numbers since 2026-01-14. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00267,Error when uploading attachment,Uploading an attachment fails with 'Permission denied'. File type: png. Size: 80MB.,Bugs & Errors,P2
+T00268,How to download audit logs?,Dashboard shows stale numbers since 2026-01-17. Is there an incident or delayed pipeline?,Data Export & Reporting,P2
+T00269,Webhook delivery failing with 401,Our webhook endpoint started failing. We receive 401 responses. Signature header: SIG191468. Any changes recently?,Integrations & API,P1
+T00270,Need scheduled exports to S3,We need scheduled exports (daily) to an S3 bucket. Is this supported?,Data Export & Reporting,P2
+T00271,Mobile app crashes on launch,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.,Bugs & Errors,P2
+T00272,Requesting SOC 2 report,We need to process a GDPR deletion request for user admin@acme.com. What's the procedure/timeline?,Security & Compliance,P2
+T00273,Getting intermittent 500 errors,We're seeing latency spikes in AP-South starting 2026-01-10. Any mitigations?,Performance & Reliability,P1
+T00274,Webhook delivery failing with 401,We're getting 429 rate limits after only a few requests/min. Our use case is syncing tickets to our data warehouse.,Integrations & API,P1
+T00275,Charged twice for my subscription,We noticed we were charged twice on 2026-01-08. Transaction IDs: TX817663 and TX503433. Please investigate.,Billing & Payments,P1
+T00276,CSV export missing columns,Export runs for ~15 minutes and then times out. Dataset size is about 15000 rows.,Data Export & Reporting,P1
+T00277,Error when uploading attachment,"Mobile app crashes on launch after the latest update. Device: iPhone 14, OS: iOS 17.",Bugs & Errors,P2
+T00278,Charged twice for my subscription,"Hi team, our December invoice shows the wrong billing address. We are on the Business plan. Can you help correct it?",Billing & Payments,P1
+T00279,Feature request: bulk tag tickets,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.,Feature Request,P2
+T00280,Error when uploading attachment,Email notifications are not being delivered to ops@acme.com. SMTP logs show Signature mismatch.,Bugs & Errors,P2

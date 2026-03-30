@@ -1,0 +1,147 @@
+{
+  "category": {
+    "macro_f1_train": 1.0,
+    "macro_f1_cv_mean": 1.0,
+    "macro_f1_cv_std": 0.0,
+    "classes": [
+      "Account & Subscription",
+      "Authentication & Access",
+      "Billing & Payments",
+      "Bugs & Errors",
+      "Data Export & Reporting",
+      "Feature Request",
+      "Integrations & API",
+      "Performance & Reliability",
+      "Security & Compliance"
+    ],
+    "confusion_matrix": [
+      [
+        34,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        34,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        30,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        33,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        34,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        30,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        21,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        35,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        29
+      ]
+    ]
+  },
+  "priority": {
+    "macro_f1_train": 0.894,
+    "macro_f1_cv_mean": 0.7882,
+    "macro_f1_cv_std": 0.0536,
+    "macro_recall_train": 0.8925,
+    "classes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "confusion_matrix": [
+      [
+        23,
+        0,
+        0
+      ],
+      [
+        0,
+        90,
+        24
+      ],
+      [
+        0,
+        16,
+        127
+      ]
+    ]
+  }
+}

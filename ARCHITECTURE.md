@@ -1,0 +1,96 @@
+# Architecture Document
+
+## System Overview
+```
+User / Agent
+     │
+     ▼
+┌─────────────────────────────────────┐
+│         FastAPI Service             │
+│                                     │
+│  POST /triage     POST /answer      │
+│       │                │            │
+│       ▼                ▼            │
+│  Triage Model     Triage Model      │
+│  (TF-IDF + LR)    (same)           │
+│                        │            │
+│                   category+priority │
+│                        ▼            │
+│                  KB Retriever       │
+│                  (TF-IDF +          │
+│                  category boost +   │
+│                  P0 escalation)     │
+│                        │            │
+│                   top-5 chunks      │
+│                        ▼            │
+│                  LLM (Claude)       │
+│                  + injection        │
+│                    defense          │
+│                        │            │
+│               draft_reply +         │
+│               citations +           │
+│               internal_next_steps   │
+└─────────────────────────────────────┘
+```
+
+## Component Details
+
+### 1. Triage Model
+- TF-IDF (bigrams, 15k features) + Logistic Regression
+- Two separate models: category (9-class) and priority (3-class)
+- `class_weight='balanced'` ensures rare P0 tickets are not missed
+- Outputs confidence scores used for human-review routing
+
+### 2. KB Retriever
+- In-memory TF-IDF matrix — no external vector DB required
+- Sliding window chunking per KB doc with 3-line overlap
+- Cosine similarity retrieval with category and priority boosting
+
+### 3. Triage × RAG Integration
+| Signal | Effect |
+|--------|--------|
+| category | Matching docs get ×1.3 score boost |
+| priority P0 | Incident/status docs get ×1.2 boost |
+| confidence < 0.40 | Routes to human agent |
+
+### 4. LLM Layer
+- Model: claude-sonnet-4-20250514
+- Prompt injection defense: regex pre-filter on user input + sanitizer on KB chunks
+- Output: structured JSON parsed from LLM response
+
+### 5. FastAPI Service
+- Endpoints: GET /health, POST /triage, POST /answer
+- Config via environment variables
+- Structured logging at INFO level
+- Dockerized with volume persistence
+
+## Key Tradeoffs
+
+| Decision | Chosen | Alternative | Why |
+|----------|--------|-------------|-----|
+| Vector store | In-memory TF-IDF | ChromaDB / Pinecone | No external dependency |
+| Classifier | Logistic Regression | Fine-tuned BERT | Fast, interpretable, robust on small data |
+| LLM | Anthropic Claude | OpenAI GPT-4 | Configurable via env vars |
+
+## Productionization Plan
+
+### Monitoring
+- Log all requests with ticket_id, triage result, confidence, and latency
+- Alert on LLM API errors and injection detection spikes
+- Track RAG Recall@K via agent feedback
+
+### Cost Controls
+- Cache LLM responses for duplicate tickets
+- Use cheaper model for low-priority P2 tickets
+- Batch ML inference for bulk processing
+
+### Security
+- Store API keys in a secrets manager
+- Rate-limit the /answer endpoint
+- Audit log all injection detections
+- Never log full ticket bodies (PII risk)
+
+### Scaling
+- ML inference is stateless — scale horizontally
+- KB index fits in memory — replicate per pod
+- Use async task queue for /answer at high volume

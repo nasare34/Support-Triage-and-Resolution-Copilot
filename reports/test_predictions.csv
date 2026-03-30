@@ -1,0 +1,101 @@
+ticket_id,subject,predicted_category,category_confidence,predicted_priority,priority_confidence
+T00001,Payment failed but card was charged,Billing & Payments,0.5565,P1,0.6308
+T00002,Notifications not sending,Bugs & Errors,0.4171,P1,0.5051
+T00003,Enhancement: custom SLAs per team,Feature Request,0.6906,P2,0.8005
+T00004,Error when uploading attachment,Bugs & Errors,0.6633,P2,0.6603
+T00005,Can you send an invoice copy?,Billing & Payments,0.6648,P1,0.547
+T00006,Getting intermittent 500 errors,Performance & Reliability,0.6895,P0,0.9176
+T00007,SSO login loop with Okta,Authentication & Access,0.6088,P2,0.6192
+T00008,Invoice shows incorrect VAT for October,Billing & Payments,0.5699,P2,0.5502
+T00009,Password reset email not arriving,Authentication & Access,0.6,P2,0.5655
+T00010,Can you send an invoice copy?,Billing & Payments,0.6391,P1,0.6287
+T00011,Need a refund for last month,Billing & Payments,0.6218,P1,0.7345
+T00012,Getting intermittent 500 errors,Performance & Reliability,0.6032,P0,0.3788
+T00013,Enhancement: custom SLAs per team,Feature Request,0.7515,P2,0.8299
+T00014,Password reset email not arriving,Authentication & Access,0.6923,P2,0.5175
+T00015,SSO login loop with Okta,Authentication & Access,0.7457,P2,0.5949
+T00016,Enhancement: custom SLAs per team,Feature Request,0.707,P2,0.8124
+T00017,Requesting SOC 2 report,Security & Compliance,0.7053,P1,0.4044
+T00018,Can't login after enabling MFA,Authentication & Access,0.5009,P2,0.5213
+T00019,Latency spike in EU region,Performance & Reliability,0.5461,P2,0.3929
+T00020,Invoice shows incorrect VAT for October,Billing & Payments,0.6621,P1,0.7421
+T00021,Can't login after enabling MFA,Authentication & Access,0.6109,P1,0.6879
+T00022,Zapier trigger stopped working,Integrations & API,0.519,P1,0.4687
+T00023,Can you send an invoice copy?,Billing & Payments,0.7298,P1,0.7931
+T00024,Payment failed but card was charged,Billing & Payments,0.6955,P1,0.6912
+T00025,Error when uploading attachment,Bugs & Errors,0.6548,P2,0.6824
+T00026,How to download audit logs?,Data Export & Reporting,0.4878,P2,0.5146
+T00027,Need GDPR data deletion,Security & Compliance,0.5074,P2,0.5276
+T00028,Enhancement: custom SLAs per team,Feature Request,0.7515,P2,0.8299
+T00029,SSO login loop with Okta,Authentication & Access,0.6081,P2,0.6284
+T00030,Can you add SSO for Azure AD?,Feature Request,0.4985,P2,0.715
+T00031,Error when uploading attachment,Bugs & Errors,0.728,P1,0.4734
+T00032,Webhook delivery failing with 401,Integrations & API,0.708,P1,0.7955
+T00033,Feature request: bulk tag tickets,Feature Request,0.6176,P2,0.7692
+T00034,Need to upgrade our plan,Account & Subscription,0.5949,P2,0.7395
+T00035,Reports dashboard not updating,Data Export & Reporting,0.7116,P2,0.6513
+T00036,Error when uploading attachment,Bugs & Errors,0.6405,P2,0.6869
+T00037,Notifications not sending,Bugs & Errors,0.6083,P1,0.528
+T00038,Need scheduled exports to S3,Data Export & Reporting,0.6135,P2,0.5627
+T00039,New user cannot access workspace,Authentication & Access,0.6678,P2,0.5945
+T00040,Error when uploading attachment,Bugs & Errors,0.5705,P2,0.4936
+T00041,Search requests timing out,Performance & Reliability,0.6873,P1,0.6157
+T00042,Notifications not sending,Bugs & Errors,0.5673,P1,0.4732
+T00043,Would love a dark mode,Feature Request,0.6921,P2,0.8168
+T00044,How to download audit logs?,Data Export & Reporting,0.4878,P2,0.5146
+T00045,Latency spike in EU region,Performance & Reliability,0.622,P1,0.6729
+T00046,How to configure IP allowlist?,Security & Compliance,0.6063,P2,0.4538
+T00047,Need GDPR data deletion,Security & Compliance,0.6099,P0,0.8137
+T00048,Cancel subscription and export data,Account & Subscription,0.6067,P2,0.6208
+T00049,SSO login loop with Okta,Authentication & Access,0.4842,P1,0.488
+T00050,Latency spike in EU region,Performance & Reliability,0.6773,P0,0.8721
+T00051,API returns 429 rate limit too quickly,Integrations & API,0.5739,P1,0.6169
+T00052,Can't login after enabling MFA,Authentication & Access,0.6011,P2,0.6329
+T00053,CSV export missing columns,Data Export & Reporting,0.7414,P2,0.6753
+T00054,Can you add SSO for Azure AD?,Feature Request,0.667,P2,0.7904
+T00055,Possible security incident report,Security & Compliance,0.5549,P0,0.7044
+T00056,Feature request: bulk tag tickets,Feature Request,0.657,P2,0.7964
+T00057,Payment failed but card was charged,Billing & Payments,0.6625,P1,0.8483
+T00058,Mobile app crashes on launch,Bugs & Errors,0.5357,P2,0.6864
+T00059,Need to upgrade our plan,Account & Subscription,0.6912,P2,0.633
+T00060,Password reset email not arriving,Authentication & Access,0.7106,P2,0.5365
+T00061,Account locked after failed attempts,Authentication & Access,0.736,P2,0.5278
+T00062,App is very slow today,Performance & Reliability,0.6022,P1,0.6859
+T00063,API returns 429 rate limit too quickly,Integrations & API,0.6591,P1,0.5524
+T00064,Need scheduled exports to S3,Data Export & Reporting,0.6457,P2,0.6012
+T00065,Zapier trigger stopped working,Integrations & API,0.519,P1,0.4687
+T00066,Workspace ownership transfer,Account & Subscription,0.5565,P2,0.6484
+T00067,How to configure IP allowlist?,Security & Compliance,0.7378,P1,0.5202
+T00068,Webhook delivery failing with 401,Integrations & API,0.6212,P1,0.6208
+T00069,Password reset email not arriving,Authentication & Access,0.6923,P2,0.5175
+T00070,Can you send an invoice copy?,Billing & Payments,0.7389,P1,0.7677
+T00071,Latency spike in EU region,Performance & Reliability,0.7141,P1,0.6939
+T00072,Feature request: bulk tag tickets,Feature Request,0.657,P2,0.7964
+T00073,Mobile app crashes on launch,Bugs & Errors,0.5287,P2,0.6892
+T00074,Webhook delivery failing with 401,Integrations & API,0.7046,P1,0.4695
+T00075,SSO login loop with Okta,Authentication & Access,0.7457,P2,0.5949
+T00076,Webhook delivery failing with 401,Integrations & API,0.708,P1,0.7955
+T00077,UI crashes when opening ticket view,Bugs & Errors,0.7159,P1,0.4796
+T00078,Need scheduled exports to S3,Data Export & Reporting,0.7999,P2,0.7101
+T00079,Need help creating API token,Integrations & API,0.6711,P1,0.6143
+T00080,UI crashes when opening ticket view,Bugs & Errors,0.6397,P2,0.5454
+T00081,Roadmap question: AI summary per ticket,Feature Request,0.6754,P2,0.8039
+T00082,API returns 429 rate limit too quickly,Integrations & API,0.5739,P1,0.6169
+T00083,Possible security incident report,Security & Compliance,0.7011,P0,0.7258
+T00084,Filter settings not saving,Bugs & Errors,0.6852,P1,0.5458
+T00085,Reports dashboard not updating,Data Export & Reporting,0.5575,P1,0.4791
+T00086,Would love a dark mode,Feature Request,0.6673,P2,0.8005
+T00087,CSV export missing columns,Data Export & Reporting,0.5784,P1,0.5929
+T00088,Getting intermittent 500 errors,Performance & Reliability,0.6627,P1,0.7399
+T00089,Change billing email for account,Account & Subscription,0.7861,P2,0.6855
+T00090,Payment failed but card was charged,Billing & Payments,0.7064,P1,0.707
+T00091,How to download audit logs?,Data Export & Reporting,0.7402,P2,0.6813
+T00092,Getting intermittent 500 errors,Performance & Reliability,0.563,P0,0.4317
+T00093,Search requests timing out,Performance & Reliability,0.6147,P1,0.6555
+T00094,Change billing email for account,Account & Subscription,0.5752,P2,0.6147
+T00095,New user cannot access workspace,Authentication & Access,0.4976,P2,0.6139
+T00096,Would love a dark mode,Feature Request,0.6478,P2,0.7882
+T00097,Error when uploading attachment,Bugs & Errors,0.6634,P1,0.4876
+T00098,SSO login loop with Okta,Authentication & Access,0.4832,P2,0.5067
+T00099,Can you add SSO for Azure AD?,Feature Request,0.667,P2,0.7904
+T00100,Would love a dark mode,Feature Request,0.6109,P2,0.7775

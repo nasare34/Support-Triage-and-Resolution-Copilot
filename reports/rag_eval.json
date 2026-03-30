@@ -1,0 +1,1064 @@
+{
+  "n_questions": 40,
+  "top_k": 5,
+  "avg_recall_at_k": 0.4879,
+  "avg_mrr": 0.755,
+  "avg_coverage": 0.875,
+  "n_perfect_recall": 6,
+  "n_failures": 17,
+  "per_question": [
+    {
+      "id": "E001",
+      "subject": "API returns 429 rate limit too quickly",
+      "expected_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "retrieved_docs": [
+        "zapier_integration",
+        "api_rate_limits",
+        "security_ip_allowlist",
+        "account_ownership_transfer",
+        "auth_mfa_troubleshooting"
+      ],
+      "recall_at_k": 0.4,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "api_rate_limits",
+        "zapier_integration"
+      ],
+      "missed_docs": [
+        "api_tokens_scopes",
+        "webhooks_troubleshooting",
+        "slack_integration"
+      ],
+      "notes": "Explain token/scopes; rate limit backoff; webhook signature validation; logs needed."
+    },
+    {
+      "id": "E002",
+      "subject": "Feature request: bulk tag tickets",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "security_gdpr_deletion",
+        "feature_requests_process",
+        "auth_password_reset",
+        "account_cancel_export",
+        "security_encryption"
+      ],
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "coverage": 1.0,
+      "hit_docs": [
+        "feature_requests_process"
+      ],
+      "missed_docs": [],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E003",
+      "subject": "Need help creating API token",
+      "expected_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "retrieved_docs": [
+        "api_rate_limits",
+        "security_gdpr_deletion",
+        "account_cancel_export",
+        "exports_audit_logs",
+        "feature_requests_process"
+      ],
+      "recall_at_k": 0.2,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "api_rate_limits"
+      ],
+      "missed_docs": [
+        "api_tokens_scopes",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "notes": "Explain token/scopes; rate limit backoff; webhook signature validation; logs needed."
+    },
+    {
+      "id": "E004",
+      "subject": "Change billing email for account",
+      "expected_docs": [
+        "account_upgrade_proration",
+        "account_cancel_export",
+        "account_ownership_transfer"
+      ],
+      "retrieved_docs": [
+        "billing_invoices_vat",
+        "security_gdpr_deletion",
+        "auth_password_reset",
+        "billing_refunds",
+        "account_cancel_export"
+      ],
+      "recall_at_k": 0.333,
+      "mrr": 0.2,
+      "coverage": 1.0,
+      "hit_docs": [
+        "account_cancel_export"
+      ],
+      "missed_docs": [
+        "account_upgrade_proration",
+        "account_ownership_transfer"
+      ],
+      "notes": "Explain proration; cancellation/export steps; ownership transfer process."
+    },
+    {
+      "id": "E005",
+      "subject": "Charged twice for my subscription",
+      "expected_docs": [
+        "billing_refunds",
+        "billing_invoices_vat",
+        "account_upgrade_proration"
+      ],
+      "retrieved_docs": [
+        "billing_refunds",
+        "billing_invoices_vat",
+        "security_encryption",
+        "auth_mfa_troubleshooting",
+        "security_ip_allowlist"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "billing_refunds",
+        "billing_invoices_vat"
+      ],
+      "missed_docs": [
+        "account_upgrade_proration"
+      ],
+      "notes": "Ask for invoice ID/charge date; explain refund process timelines; mention VAT/billing address where relevant."
+    },
+    {
+      "id": "E006",
+      "subject": "Getting intermittent 500 errors",
+      "expected_docs": [
+        "performance_latency",
+        "incidents_status_page"
+      ],
+      "retrieved_docs": [
+        "exports_audit_logs",
+        "account_cancel_export",
+        "performance_latency",
+        "security_gdpr_deletion",
+        "billing_refunds"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 0.333,
+      "coverage": 1.0,
+      "hit_docs": [
+        "performance_latency"
+      ],
+      "missed_docs": [
+        "incidents_status_page"
+      ],
+      "notes": "Ask for region/timestamps/correlation IDs; check status page; escalation guidance."
+    },
+    {
+      "id": "E007",
+      "subject": "Mobile app crashes on launch",
+      "expected_docs": [
+        "bugs_attachments",
+        "bugs_notifications"
+      ],
+      "retrieved_docs": [
+        "billing_refunds",
+        "feature_requests_process",
+        "bugs_attachments",
+        "slack_integration",
+        "auth_sso_saml_okta"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 0.333,
+      "coverage": 1.0,
+      "hit_docs": [
+        "bugs_attachments"
+      ],
+      "missed_docs": [
+        "bugs_notifications"
+      ],
+      "notes": "Collect reproduction steps; file limits; alternative browser; logs/timestamps."
+    },
+    {
+      "id": "E008",
+      "subject": "Feature request: bulk tag tickets",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "security_ip_allowlist",
+        "feature_requests_process",
+        "exports_audit_logs",
+        "security_encryption",
+        "auth_mfa_troubleshooting"
+      ],
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "coverage": 1.0,
+      "hit_docs": [
+        "feature_requests_process"
+      ],
+      "missed_docs": [],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E009",
+      "subject": "SSO login loop with Okta",
+      "expected_docs": [
+        "auth_password_reset",
+        "auth_mfa_troubleshooting",
+        "auth_sso_saml_okta",
+        "auth_account_lockout"
+      ],
+      "retrieved_docs": [
+        "auth_account_lockout",
+        "auth_mfa_troubleshooting",
+        "auth_sso_saml_okta",
+        "security_gdpr_deletion",
+        "slack_integration"
+      ],
+      "recall_at_k": 0.75,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "auth_mfa_troubleshooting",
+        "auth_sso_saml_okta",
+        "auth_account_lockout"
+      ],
+      "missed_docs": [
+        "auth_password_reset"
+      ],
+      "notes": "Provide troubleshooting steps; request IdP details; collect timestamps/correlation IDs; suggest admin actions."
+    },
+    {
+      "id": "E010",
+      "subject": "Mobile app crashes on launch",
+      "expected_docs": [
+        "bugs_attachments",
+        "bugs_notifications"
+      ],
+      "retrieved_docs": [
+        "security_ip_allowlist",
+        "billing_refunds",
+        "auth_password_reset",
+        "auth_mfa_troubleshooting",
+        "performance_latency"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "coverage": 0.0,
+      "hit_docs": [],
+      "missed_docs": [
+        "bugs_attachments",
+        "bugs_notifications"
+      ],
+      "notes": "Collect reproduction steps; file limits; alternative browser; logs/timestamps."
+    },
+    {
+      "id": "E011",
+      "subject": "Notifications not sending",
+      "expected_docs": [
+        "bugs_attachments",
+        "bugs_notifications"
+      ],
+      "retrieved_docs": [
+        "bugs_notifications",
+        "auth_mfa_troubleshooting",
+        "security_ip_allowlist",
+        "billing_invoices_vat",
+        "billing_refunds"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "bugs_notifications"
+      ],
+      "missed_docs": [
+        "bugs_attachments"
+      ],
+      "notes": "Collect reproduction steps; file limits; alternative browser; logs/timestamps."
+    },
+    {
+      "id": "E012",
+      "subject": "Requesting SOC 2 report",
+      "expected_docs": [
+        "security_ip_allowlist",
+        "security_encryption",
+        "security_gdpr_deletion"
+      ],
+      "retrieved_docs": [
+        "security_encryption",
+        "security_ip_allowlist",
+        "feature_requests_process",
+        "billing_refunds",
+        "auth_mfa_troubleshooting"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "security_ip_allowlist",
+        "security_encryption"
+      ],
+      "missed_docs": [
+        "security_gdpr_deletion"
+      ],
+      "notes": "Provide SOC2/GDPR process; explain IP allowlist and lockout recovery; encryption details."
+    },
+    {
+      "id": "E013",
+      "subject": "Zapier trigger stopped working",
+      "expected_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "retrieved_docs": [
+        "zapier_integration",
+        "security_gdpr_deletion",
+        "auth_password_reset",
+        "account_ownership_transfer",
+        "security_encryption"
+      ],
+      "recall_at_k": 0.2,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "zapier_integration"
+      ],
+      "missed_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration"
+      ],
+      "notes": "Explain token/scopes; rate limit backoff; webhook signature validation; logs needed."
+    },
+    {
+      "id": "E014",
+      "subject": "Would love a dark mode",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "feature_requests_process",
+        "billing_refunds",
+        "account_cancel_export",
+        "slack_integration",
+        "auth_password_reset"
+      ],
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "feature_requests_process"
+      ],
+      "missed_docs": [],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E015",
+      "subject": "Slack integration not posting messages",
+      "expected_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "retrieved_docs": [
+        "slack_integration",
+        "security_ip_allowlist",
+        "account_ownership_transfer",
+        "auth_password_reset",
+        "auth_mfa_troubleshooting"
+      ],
+      "recall_at_k": 0.2,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "slack_integration"
+      ],
+      "missed_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "zapier_integration"
+      ],
+      "notes": "Explain token/scopes; rate limit backoff; webhook signature validation; logs needed."
+    },
+    {
+      "id": "E016",
+      "subject": "CSV export missing columns",
+      "expected_docs": [
+        "exports_csv",
+        "exports_audit_logs",
+        "reports_dashboard_stale"
+      ],
+      "retrieved_docs": [
+        "exports_csv",
+        "exports_audit_logs",
+        "billing_invoices_vat",
+        "security_gdpr_deletion",
+        "account_cancel_export"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "exports_csv",
+        "exports_audit_logs"
+      ],
+      "missed_docs": [
+        "reports_dashboard_stale"
+      ],
+      "notes": "Explain export locations; large export mitigations; audit log steps; dashboard freshness."
+    },
+    {
+      "id": "E017",
+      "subject": "Reports dashboard not updating",
+      "expected_docs": [
+        "exports_csv",
+        "exports_audit_logs",
+        "reports_dashboard_stale"
+      ],
+      "retrieved_docs": [
+        "exports_audit_logs",
+        "account_cancel_export",
+        "billing_refunds",
+        "security_gdpr_deletion",
+        "reports_dashboard_stale"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "exports_audit_logs",
+        "reports_dashboard_stale"
+      ],
+      "missed_docs": [
+        "exports_csv"
+      ],
+      "notes": "Explain export locations; large export mitigations; audit log steps; dashboard freshness."
+    },
+    {
+      "id": "E018",
+      "subject": "Notifications not sending",
+      "expected_docs": [
+        "bugs_attachments",
+        "bugs_notifications"
+      ],
+      "retrieved_docs": [
+        "bugs_notifications",
+        "billing_refunds",
+        "slack_integration",
+        "feature_requests_process",
+        "billing_refunds"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "bugs_notifications"
+      ],
+      "missed_docs": [
+        "bugs_attachments"
+      ],
+      "notes": "Collect reproduction steps; file limits; alternative browser; logs/timestamps."
+    },
+    {
+      "id": "E019",
+      "subject": "Need help creating API token",
+      "expected_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "retrieved_docs": [
+        "api_rate_limits",
+        "security_gdpr_deletion",
+        "account_cancel_export",
+        "exports_audit_logs",
+        "feature_requests_process"
+      ],
+      "recall_at_k": 0.2,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "api_rate_limits"
+      ],
+      "missed_docs": [
+        "api_tokens_scopes",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "notes": "Explain token/scopes; rate limit backoff; webhook signature validation; logs needed."
+    },
+    {
+      "id": "E020",
+      "subject": "Payment failed but card was charged",
+      "expected_docs": [
+        "billing_refunds",
+        "billing_invoices_vat",
+        "account_upgrade_proration"
+      ],
+      "retrieved_docs": [
+        "billing_refunds",
+        "security_gdpr_deletion",
+        "incidents_status_page",
+        "billing_refunds",
+        "security_encryption"
+      ],
+      "recall_at_k": 0.333,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "billing_refunds"
+      ],
+      "missed_docs": [
+        "billing_invoices_vat",
+        "account_upgrade_proration"
+      ],
+      "notes": "Ask for invoice ID/charge date; explain refund process timelines; mention VAT/billing address where relevant."
+    },
+    {
+      "id": "E021",
+      "subject": "How to download audit logs?",
+      "expected_docs": [
+        "exports_csv",
+        "exports_audit_logs",
+        "reports_dashboard_stale"
+      ],
+      "retrieved_docs": [
+        "exports_audit_logs",
+        "reports_dashboard_stale",
+        "incidents_status_page",
+        "account_cancel_export",
+        "security_gdpr_deletion"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "exports_audit_logs",
+        "reports_dashboard_stale"
+      ],
+      "missed_docs": [
+        "exports_csv"
+      ],
+      "notes": "Explain export locations; large export mitigations; audit log steps; dashboard freshness."
+    },
+    {
+      "id": "E022",
+      "subject": "How to configure IP allowlist?",
+      "expected_docs": [
+        "security_ip_allowlist",
+        "security_encryption",
+        "security_gdpr_deletion"
+      ],
+      "retrieved_docs": [
+        "security_gdpr_deletion",
+        "billing_refunds",
+        "security_ip_allowlist",
+        "feature_requests_process",
+        "security_encryption"
+      ],
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "security_ip_allowlist",
+        "security_encryption",
+        "security_gdpr_deletion"
+      ],
+      "missed_docs": [],
+      "notes": "Provide SOC2/GDPR process; explain IP allowlist and lockout recovery; encryption details."
+    },
+    {
+      "id": "E023",
+      "subject": "Notifications not sending",
+      "expected_docs": [
+        "bugs_attachments",
+        "bugs_notifications"
+      ],
+      "retrieved_docs": [
+        "bugs_notifications",
+        "billing_refunds",
+        "auth_password_reset",
+        "exports_audit_logs",
+        "security_gdpr_deletion"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "bugs_notifications"
+      ],
+      "missed_docs": [
+        "bugs_attachments"
+      ],
+      "notes": "Collect reproduction steps; file limits; alternative browser; logs/timestamps."
+    },
+    {
+      "id": "E024",
+      "subject": "Can you add SSO for Azure AD?",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "security_ip_allowlist",
+        "exports_audit_logs",
+        "auth_mfa_troubleshooting",
+        "security_encryption",
+        "account_upgrade_proration"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "coverage": 0.0,
+      "hit_docs": [],
+      "missed_docs": [
+        "feature_requests_process"
+      ],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E025",
+      "subject": "Reports dashboard not updating",
+      "expected_docs": [
+        "exports_csv",
+        "exports_audit_logs",
+        "reports_dashboard_stale"
+      ],
+      "retrieved_docs": [
+        "exports_audit_logs",
+        "billing_refunds",
+        "account_cancel_export",
+        "security_gdpr_deletion",
+        "security_encryption"
+      ],
+      "recall_at_k": 0.333,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "exports_audit_logs"
+      ],
+      "missed_docs": [
+        "exports_csv",
+        "reports_dashboard_stale"
+      ],
+      "notes": "Explain export locations; large export mitigations; audit log steps; dashboard freshness."
+    },
+    {
+      "id": "E026",
+      "subject": "Search requests timing out",
+      "expected_docs": [
+        "performance_latency",
+        "incidents_status_page"
+      ],
+      "retrieved_docs": [
+        "security_gdpr_deletion",
+        "feature_requests_process",
+        "billing_refunds",
+        "security_encryption",
+        "security_ip_allowlist"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "coverage": 0.0,
+      "hit_docs": [],
+      "missed_docs": [
+        "performance_latency",
+        "incidents_status_page"
+      ],
+      "notes": "Ask for region/timestamps/correlation IDs; check status page; escalation guidance."
+    },
+    {
+      "id": "E027",
+      "subject": "Cancel subscription and export data",
+      "expected_docs": [
+        "account_upgrade_proration",
+        "account_cancel_export",
+        "account_ownership_transfer"
+      ],
+      "retrieved_docs": [
+        "billing_invoices_vat",
+        "account_cancel_export",
+        "security_gdpr_deletion",
+        "billing_refunds",
+        "auth_password_reset"
+      ],
+      "recall_at_k": 0.333,
+      "mrr": 0.5,
+      "coverage": 1.0,
+      "hit_docs": [
+        "account_cancel_export"
+      ],
+      "missed_docs": [
+        "account_upgrade_proration",
+        "account_ownership_transfer"
+      ],
+      "notes": "Explain proration; cancellation/export steps; ownership transfer process."
+    },
+    {
+      "id": "E028",
+      "subject": "Password reset email not arriving",
+      "expected_docs": [
+        "auth_password_reset",
+        "auth_mfa_troubleshooting",
+        "auth_sso_saml_okta",
+        "auth_account_lockout"
+      ],
+      "retrieved_docs": [
+        "auth_password_reset",
+        "bugs_notifications",
+        "security_ip_allowlist",
+        "auth_mfa_troubleshooting",
+        "exports_audit_logs"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "auth_password_reset",
+        "auth_mfa_troubleshooting"
+      ],
+      "missed_docs": [
+        "auth_sso_saml_okta",
+        "auth_account_lockout"
+      ],
+      "notes": "Provide troubleshooting steps; request IdP details; collect timestamps/correlation IDs; suggest admin actions."
+    },
+    {
+      "id": "E029",
+      "subject": "Search requests timing out",
+      "expected_docs": [
+        "performance_latency",
+        "incidents_status_page"
+      ],
+      "retrieved_docs": [
+        "incidents_status_page",
+        "exports_audit_logs",
+        "security_gdpr_deletion",
+        "api_rate_limits",
+        "billing_refunds"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "incidents_status_page"
+      ],
+      "missed_docs": [
+        "performance_latency"
+      ],
+      "notes": "Ask for region/timestamps/correlation IDs; check status page; escalation guidance."
+    },
+    {
+      "id": "E030",
+      "subject": "Possible security incident report",
+      "expected_docs": [
+        "security_ip_allowlist",
+        "security_encryption",
+        "security_gdpr_deletion"
+      ],
+      "retrieved_docs": [
+        "security_encryption",
+        "security_ip_allowlist",
+        "incidents_status_page",
+        "auth_mfa_troubleshooting",
+        "feature_requests_process"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "security_ip_allowlist",
+        "security_encryption"
+      ],
+      "missed_docs": [
+        "security_gdpr_deletion"
+      ],
+      "notes": "Provide SOC2/GDPR process; explain IP allowlist and lockout recovery; encryption details."
+    },
+    {
+      "id": "E031",
+      "subject": "API returns 429 rate limit too quickly",
+      "expected_docs": [
+        "api_tokens_scopes",
+        "api_rate_limits",
+        "webhooks_troubleshooting",
+        "slack_integration",
+        "zapier_integration"
+      ],
+      "retrieved_docs": [
+        "slack_integration",
+        "api_rate_limits",
+        "security_ip_allowlist",
+        "performance_latency",
+        "account_ownership_transfer"
+      ],
+      "recall_at_k": 0.4,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "api_rate_limits",
+        "slack_integration"
+      ],
+      "missed_docs": [
+        "api_tokens_scopes",
+        "webhooks_troubleshooting",
+        "zapier_integration"
+      ],
+      "notes": "Explain token/scopes; rate limit backoff; webhook signature validation; logs needed."
+    },
+    {
+      "id": "E032",
+      "subject": "Invoice shows incorrect VAT for May",
+      "expected_docs": [
+        "billing_refunds",
+        "billing_invoices_vat",
+        "account_upgrade_proration"
+      ],
+      "retrieved_docs": [
+        "billing_invoices_vat",
+        "billing_refunds",
+        "billing_refunds",
+        "incidents_status_page",
+        "security_ip_allowlist"
+      ],
+      "recall_at_k": 0.667,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "billing_refunds",
+        "billing_invoices_vat"
+      ],
+      "missed_docs": [
+        "account_upgrade_proration"
+      ],
+      "notes": "Ask for invoice ID/charge date; explain refund process timelines; mention VAT/billing address where relevant."
+    },
+    {
+      "id": "E033",
+      "subject": "Possible security incident report",
+      "expected_docs": [
+        "security_ip_allowlist",
+        "security_encryption",
+        "security_gdpr_deletion"
+      ],
+      "retrieved_docs": [
+        "incidents_status_page",
+        "security_ip_allowlist",
+        "security_encryption",
+        "exports_audit_logs",
+        "security_gdpr_deletion"
+      ],
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "coverage": 1.0,
+      "hit_docs": [
+        "security_ip_allowlist",
+        "security_encryption",
+        "security_gdpr_deletion"
+      ],
+      "missed_docs": [],
+      "notes": "Provide SOC2/GDPR process; explain IP allowlist and lockout recovery; encryption details."
+    },
+    {
+      "id": "E034",
+      "subject": "Workspace ownership transfer",
+      "expected_docs": [
+        "account_upgrade_proration",
+        "account_cancel_export",
+        "account_ownership_transfer"
+      ],
+      "retrieved_docs": [
+        "account_ownership_transfer",
+        "billing_refunds",
+        "slack_integration",
+        "feature_requests_process",
+        "auth_password_reset"
+      ],
+      "recall_at_k": 0.333,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "account_ownership_transfer"
+      ],
+      "missed_docs": [
+        "account_upgrade_proration",
+        "account_cancel_export"
+      ],
+      "notes": "Explain proration; cancellation/export steps; ownership transfer process."
+    },
+    {
+      "id": "E035",
+      "subject": "SSO login loop with Okta",
+      "expected_docs": [
+        "auth_password_reset",
+        "auth_mfa_troubleshooting",
+        "auth_sso_saml_okta",
+        "auth_account_lockout"
+      ],
+      "retrieved_docs": [
+        "auth_sso_saml_okta",
+        "auth_account_lockout",
+        "security_gdpr_deletion",
+        "billing_refunds",
+        "slack_integration"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "auth_sso_saml_okta",
+        "auth_account_lockout"
+      ],
+      "missed_docs": [
+        "auth_password_reset",
+        "auth_mfa_troubleshooting"
+      ],
+      "notes": "Provide troubleshooting steps; request IdP details; collect timestamps/correlation IDs; suggest admin actions."
+    },
+    {
+      "id": "E036",
+      "subject": "Would love a dark mode",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "security_ip_allowlist",
+        "auth_mfa_troubleshooting",
+        "account_upgrade_proration",
+        "exports_audit_logs",
+        "auth_password_reset"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "coverage": 0.0,
+      "hit_docs": [],
+      "missed_docs": [
+        "feature_requests_process"
+      ],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E037",
+      "subject": "Roadmap question: AI summary per ticket",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "exports_audit_logs",
+        "security_ip_allowlist",
+        "api_rate_limits",
+        "security_gdpr_deletion",
+        "billing_invoices_vat"
+      ],
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "coverage": 0.0,
+      "hit_docs": [],
+      "missed_docs": [
+        "feature_requests_process"
+      ],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E038",
+      "subject": "Service appears down for our team",
+      "expected_docs": [
+        "performance_latency",
+        "incidents_status_page"
+      ],
+      "retrieved_docs": [
+        "incidents_status_page",
+        "reports_dashboard_stale",
+        "security_gdpr_deletion",
+        "zapier_integration",
+        "billing_refunds"
+      ],
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "incidents_status_page"
+      ],
+      "missed_docs": [
+        "performance_latency"
+      ],
+      "notes": "Ask for region/timestamps/correlation IDs; check status page; escalation guidance."
+    },
+    {
+      "id": "E039",
+      "subject": "Can you add SSO for Azure AD?",
+      "expected_docs": [
+        "feature_requests_process"
+      ],
+      "retrieved_docs": [
+        "security_ip_allowlist",
+        "billing_refunds",
+        "feature_requests_process",
+        "security_encryption",
+        "exports_audit_logs"
+      ],
+      "recall_at_k": 1.0,
+      "mrr": 0.333,
+      "coverage": 1.0,
+      "hit_docs": [
+        "feature_requests_process"
+      ],
+      "missed_docs": [],
+      "notes": "Acknowledge request; ask for acceptance criteria; explain intake process."
+    },
+    {
+      "id": "E040",
+      "subject": "Change billing email for account",
+      "expected_docs": [
+        "account_upgrade_proration",
+        "account_cancel_export",
+        "account_ownership_transfer"
+      ],
+      "retrieved_docs": [
+        "account_cancel_export",
+        "billing_invoices_vat",
+        "security_gdpr_deletion",
+        "auth_password_reset",
+        "billing_refunds"
+      ],
+      "recall_at_k": 0.333,
+      "mrr": 1.0,
+      "coverage": 1.0,
+      "hit_docs": [
+        "account_cancel_export"
+      ],
+      "missed_docs": [
+        "account_upgrade_proration",
+        "account_ownership_transfer"
+      ],
+      "notes": "Explain proration; cancellation/export steps; ownership transfer process."
+    }
+  ]
+}

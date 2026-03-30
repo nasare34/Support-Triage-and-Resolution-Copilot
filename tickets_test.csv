@@ -1,0 +1,101 @@
+ticket_id,subject,body
+T00001,Payment failed but card was charged,We'd like a refund for duplicate charge. The invoice number is INV527070.
+T00002,Notifications not sending,Email notifications are not being delivered to admin@acme.com. SMTP logs show Invalid SAML response.
+T00003,Enhancement: custom SLAs per team,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.
+T00004,Error when uploading attachment,"Mobile app crashes on launch after the latest update. Device: Pixel 7, OS: iOS 17."
+T00005,Can you send an invoice copy?,"Hi team, our June invoice shows the wrong billing address. We are on the Enterprise plan. Can you help correct it?"
+T00006,Getting intermittent 500 errors,Service appears down for our entire team (multiple networks). Status page? We need ETA.
+T00007,SSO login loop with Okta,New user invited but gets 'access denied' when joining workspace acme-emea.
+T00008,Invoice shows incorrect VAT for October,We'd like a refund for we cancelled but were charged. The invoice number is INV333705.
+T00009,Password reset email not arriving,New user invited but gets 'access denied' when joining workspace acme-support.
+T00010,Can you send an invoice copy?,"Hi team, our October invoice shows a missing line item discount. We are on the Starter plan. Can you help correct it?"
+T00011,Need a refund for last month,We noticed we were charged twice on 2026-01-03. Transaction IDs: TX610150 and TX756075. Please investigate.
+T00012,Getting intermittent 500 errors,Search is timing out for queries like 'SSO setup'. We have about 250000 tickets.
+T00013,Enhancement: custom SLAs per team,Would love a dark mode for agents who work night shifts. Any timeline?
+T00014,Password reset email not arriving,"After enabling MFA, multiple users are stuck at the verification step. We use Azure AD. Any known issues?"
+T00015,SSO login loop with Okta,Password reset emails are not arriving for it@acme.com. We checked spam. Could you resend or advise?
+T00016,Enhancement: custom SLAs per team,Feature request: allow bulk tagging of tickets from the list view to speed up triage.
+T00017,Requesting SOC 2 report,Can you confirm encryption at rest and in transit? Any details on key management?
+T00018,Can't login after enabling MFA,SSO keeps redirecting back to the login page. We configured SAML with Azure AD. Error: Permission denied.
+T00019,Latency spike in EU region,Search is timing out for queries like 'export audit logs'. We have about 15000 tickets.
+T00020,Invoice shows incorrect VAT for October,"Payment failed in the UI, but my card shows a pending charge for $1,200. What should we do?"
+T00021,Can't login after enabling MFA,Account is locked after too many attempts. Need urgent unlock for admin@acme.com.
+T00022,Zapier trigger stopped working,Slack integration stopped posting to channel #support-alerts. App shows connected but no messages.
+T00023,Can you send an invoice copy?,"Payment failed in the UI, but my card shows a pending charge for $1,200. What should we do?"
+T00024,Payment failed but card was charged,"Hi team, our January invoice shows the wrong billing address. We are on the Pro plan. Can you help correct it?"
+T00025,Error when uploading attachment,Uploading an attachment fails with 'Invalid SAML response'. File type: pdf. Size: 8MB.
+T00026,How to download audit logs?,How do we download audit logs for the last 7 days for compliance?
+T00027,Need GDPR data deletion,Please share your latest SOC 2 report and security whitepaper for vendor review.
+T00028,Enhancement: custom SLAs per team,Would love a dark mode for agents who work night shifts. Any timeline?
+T00029,SSO login loop with Okta,New user invited but gets 'access denied' when joining workspace acme-support.
+T00030,Can you add SSO for Azure AD?,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.
+T00031,Error when uploading attachment,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) set filter 2) refresh page 3) filter resets.
+T00032,Webhook delivery failing with 401,We're getting 429 rate limits after only a few requests/min. Our use case is creating tickets from our app.
+T00033,Feature request: bulk tag tickets,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.
+T00034,Need to upgrade our plan,We need to update billing email to finance@acme.com and ensure invoices go there.
+T00035,Reports dashboard not updating,Dashboard shows stale numbers since 2026-01-03. Is there an incident or delayed pipeline?
+T00036,Error when uploading attachment,Uploading an attachment fails with 'Invalid SAML response'. File type: pdf. Size: 25MB.
+T00037,Notifications not sending,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) set filter 2) refresh page 3) filter resets.
+T00038,Need scheduled exports to S3,How do we download audit logs for the last 90 days for compliance?
+T00039,New user cannot access workspace,"After enabling MFA, multiple users are stuck at the verification step. We use Azure AD. Any known issues?"
+T00040,Error when uploading attachment,Email notifications are not being delivered to finance@acme.com. SMTP logs show Token expired.
+T00041,Search requests timing out,Intermittent 500 errors on /api/tickets. Correlation ID: CID341539. Happens since 2026-01-26.
+T00042,Notifications not sending,"When opening the ticket view, the UI crashes with error 'Permission denied'. Browser: Firefox 122."
+T00043,Would love a dark mode,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations."
+T00044,How to download audit logs?,How do we download audit logs for the last 7 days for compliance?
+T00045,Latency spike in EU region,The app is slow across multiple pages. Average load time is 12s. Region: EU-West.
+T00046,How to configure IP allowlist?,Please share your latest SOC 2 report and security whitepaper for vendor review.
+T00047,Need GDPR data deletion,We suspect a security incident related to access from an unfamiliar IP. Can you provide logs?
+T00048,Cancel subscription and export data,We need to update billing email to it@acme.com and ensure invoices go there.
+T00049,SSO login loop with Okta,SSO keeps redirecting back to the login page. We configured SAML with Azure AD. Error: Signature mismatch.
+T00050,Latency spike in EU region,Service appears down for our entire team (multiple networks). Status page? We need ETA.
+T00051,API returns 429 rate limit too quickly,Slack integration stopped posting to channel #support-alerts. App shows connected but no messages.
+T00052,Can't login after enabling MFA,New user invited but gets 'access denied' when joining workspace acme-emea.
+T00053,CSV export missing columns,Dashboard shows stale numbers since 2026-01-15. Is there an incident or delayed pipeline?
+T00054,Can you add SSO for Azure AD?,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations."
+T00055,Possible security incident report,How do we configure IP allowlisting for workspace acme-support? Any limitations?
+T00056,Feature request: bulk tag tickets,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations."
+T00057,Payment failed but card was charged,"Payment failed in the UI, but my card shows a pending charge for $99. What should we do?"
+T00058,Mobile app crashes on launch,"Mobile app crashes on launch after the latest update. Device: Samsung S23, OS: Android 14."
+T00059,Need to upgrade our plan,We need to transfer workspace ownership from alice@acme.com to itadmin@acme.com.
+T00060,Password reset email not arriving,"After enabling MFA, multiple users are stuck at the verification step. We use Google Workspace. Any known issues?"
+T00061,Account locked after failed attempts,Password reset emails are not arriving for it@acme.com. We checked spam. Could you resend or advise?
+T00062,App is very slow today,We're seeing latency spikes in AP-South starting 2026-01-27. Any mitigations?
+T00063,API returns 429 rate limit too quickly,Zapier trigger 'New Ticket' stopped firing since 2026-01-07. We reconnected but still nothing.
+T00064,Need scheduled exports to S3,Export runs for ~20 minutes and then times out. Dataset size is about 2000 rows.
+T00065,Zapier trigger stopped working,Slack integration stopped posting to channel #support-alerts. App shows connected but no messages.
+T00066,Workspace ownership transfer,We want to upgrade from Enterprise to Business. How is proration handled?
+T00067,How to configure IP allowlist?,Can you confirm encryption at rest and in transit? Any details on key management?
+T00068,Webhook delivery failing with 401,Our webhook endpoint started failing. We receive 401 responses. Signature header: SIG822325. Any changes recently?
+T00069,Password reset email not arriving,"After enabling MFA, multiple users are stuck at the verification step. We use Azure AD. Any known issues?"
+T00070,Can you send an invoice copy?,We noticed we were charged twice on 2026-01-25. Transaction IDs: TX397677 and TX683469. Please investigate.
+T00071,Latency spike in EU region,Intermittent 500 errors on /api/tickets. Correlation ID: CID130451. Happens since 2026-01-06.
+T00072,Feature request: bulk tag tickets,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations."
+T00073,Mobile app crashes on launch,"Mobile app crashes on launch after the latest update. Device: iPhone 14, OS: Android 14."
+T00074,Webhook delivery failing with 401,Zapier trigger 'New Ticket' stopped firing since 2026-01-11. We reconnected but still nothing.
+T00075,SSO login loop with Okta,Password reset emails are not arriving for it@acme.com. We checked spam. Could you resend or advise?
+T00076,Webhook delivery failing with 401,We're getting 429 rate limits after only a few requests/min. Our use case is creating tickets from our app.
+T00077,UI crashes when opening ticket view,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) set filter 2) refresh page 3) filter resets.
+T00078,Need scheduled exports to S3,Dashboard shows stale numbers since 2026-01-09. Is there an incident or delayed pipeline?
+T00079,Need help creating API token,Our webhook endpoint started failing. We receive 401 responses. Signature header: SIG641554. Any changes recently?
+T00080,UI crashes when opening ticket view,"When opening the ticket view, the UI crashes with error 'Unexpected null reference'. Browser: Safari 17."
+T00081,Roadmap question: AI summary per ticket,Feature request: allow bulk tagging of tickets from the list view to speed up triage.
+T00082,API returns 429 rate limit too quickly,Slack integration stopped posting to channel #support-alerts. App shows connected but no messages.
+T00083,Possible security incident report,We need to process a GDPR deletion request for user ops@acme.com. What's the procedure/timeline?
+T00084,Filter settings not saving,Filter settings won't save; they reset on refresh. Steps to reproduce: 1) save filter 2) reopen app 3) missing.
+T00085,Reports dashboard not updating,Export runs for ~15 minutes and then times out. Dataset size is about 250000 rows.
+T00086,Would love a dark mode,Feature request: allow bulk tagging of tickets from the list view to speed up triage.
+T00087,CSV export missing columns,"CSV export is missing columns: customer_id, region. We need them for our weekly reporting."
+T00088,Getting intermittent 500 errors,The app is slow across multiple pages. Average load time is 5s. Region: AP-South.
+T00089,Change billing email for account,We need to transfer workspace ownership from opslead@acme.com to bob@acme.com.
+T00090,Payment failed but card was charged,Can you send a copy of invoice INV201191 to ops@acme.com?
+T00091,How to download audit logs?,Dashboard shows stale numbers since 2026-01-17. Is there an incident or delayed pipeline?
+T00092,Getting intermittent 500 errors,Search is timing out for queries like 'export audit logs'. We have about 250000 tickets.
+T00093,Search requests timing out,The app is slow across multiple pages. Average load time is 12s. Region: EU-West.
+T00094,Change billing email for account,We want to upgrade from Business to Enterprise. How is proration handled?
+T00095,New user cannot access workspace,New user invited but gets 'access denied' when joining workspace acme-hq.
+T00096,Would love a dark mode,Can you add SSO for Azure AD with SCIM provisioning? We need for enterprise rollout.
+T00097,Error when uploading attachment,"When opening the ticket view, the UI crashes with error 'Signature mismatch'. Browser: Firefox 122."
+T00098,SSO login loop with Okta,SSO keeps redirecting back to the login page. We configured SAML with Azure AD. Error: Token expired.
+T00099,Can you add SSO for Azure AD?,"Roadmap: we'd like AI summaries and suggested replies per ticket, with citations."
+T00100,Would love a dark mode,Would love a dark mode for agents who work night shifts. Any timeline?
