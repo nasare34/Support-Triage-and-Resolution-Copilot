@@ -18,8 +18,11 @@ cp .env.example .env
 docker compose up --build
 ```
 
-API available at: http://localhost:8000
+## API available at: http://localhost:8000
 Docs at: http://localhost:8000/docs
+GET  http://0.0.0.0:8000/health
+POST http://0.0.0.0:8000/triage
+POST http://0.0.0.0:8000/answer
 
 ### Option B — Local Python
 ```bash
