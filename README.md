@@ -18,11 +18,21 @@ cp .env.example .env
 docker compose up --build
 ```
 
-## API available at: http://localhost:8000
+API available at: http://localhost:8000
 Docs at: http://localhost:8000/docs
-GET  http://0.0.0.0:8000/health
-POST http://0.0.0.0:8000/triage
-POST http://0.0.0.0:8000/answer
+
+The four main URLs are:
+
+http://0.0.0.0:8000 (I didn't create a homapage hence the reason for seeing the blank page or {"detail":"Not Found"} on the http://0.0.0.0:8000.
+To work or see the api just use http://0.0.0.0:8000/docs.
+
+The four main URL are;
+
+1. http://0.0.0.0:8000/docs
+2. GET  http://0.0.0.0:8000/health
+3. POST http://0.0.0.0:8000/triage
+4. POST http://0.0.0.0:8000/answer
+
 
 ### Option B — Local Python
 ```bash
