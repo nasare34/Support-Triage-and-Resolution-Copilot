@@ -23,7 +23,8 @@ User / Agent
 │                        │            │
 │                   top-5 chunks      │
 │                        ▼            │
-│                  LLM (Claude)       │
+│                  LLM (Groq /        │
+│                  Llama-3.3-70b)     │
 │                  + injection        │
 │                    defense          │
 │                        │            │
@@ -54,9 +55,10 @@ User / Agent
 | confidence < 0.40 | Routes to human agent |
 
 ### 4. LLM Layer
-- Model: claude-sonnet-4-20250514
+- Model: `llama-3.3-70b-versatile` via Groq API
 - Prompt injection defense: regex pre-filter on user input + sanitizer on KB chunks
 - Output: structured JSON parsed from LLM response
+- API key configured via `GROQ_API_KEY` environment variable
 
 ### 5. FastAPI Service
 - Endpoints: GET /health, POST /triage, POST /answer
@@ -70,7 +72,7 @@ User / Agent
 |----------|--------|-------------|-----|
 | Vector store | In-memory TF-IDF | ChromaDB / Pinecone | No external dependency |
 | Classifier | Logistic Regression | Fine-tuned BERT | Fast, interpretable, robust on small data |
-| LLM | Anthropic Claude | OpenAI GPT-4 | Configurable via env vars |
+| LLM | Groq (Llama-3.3-70b) | Anthropic Claude / OpenAI GPT-4 | Fast inference, generous free tier, OpenAI-compatible API |
 
 ## Productionization Plan
 
@@ -81,11 +83,11 @@ User / Agent
 
 ### Cost Controls
 - Cache LLM responses for duplicate tickets
-- Use cheaper model for low-priority P2 tickets
+- Use a smaller Groq-hosted model (e.g. `llama-3.1-8b-instant`) for low-priority P2 tickets
 - Batch ML inference for bulk processing
 
 ### Security
-- Store API keys in a secrets manager
+- Store `GROQ_API_KEY` in a secrets manager (e.g. AWS Secrets Manager, HashiCorp Vault)
 - Rate-limit the /answer endpoint
 - Audit log all injection detections
 - Never log full ticket bodies (PII risk)
