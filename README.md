@@ -1,4 +1,6 @@
 # AcmeDesk Support Triage + Resolution Copilot
+## Demo Video
+[Watch the full demo on Google Drive](https://drive.google.com/file/d/1vmq3ylRsUP8zdJqpeIZvJIIc6ch6BMyD/view?usp=sharing)
 
 A production-ready AI system that:
 1. Triages support tickets (category + priority) using a traditional ML model
