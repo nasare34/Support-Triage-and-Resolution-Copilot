@@ -1,5 +1,6 @@
 # Model Card — AcmeDesk Triage Models
-
+## Demo Video
+[Watch the full demo on Google Drive](https://drive.google.com/file/d/1vmq3ylRsUP8zdJqpeIZvJIIc6ch6BMyD/view?usp=sharing)
 ## Model Overview
 Two scikit-learn pipelines trained on AcmeDesk synthetic support ticket data:
 - **Category model**: predicts 9-class ticket category
